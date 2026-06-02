@@ -8,3 +8,71 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body {
+  background-color: #1a1a2e;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #16213e;
+  border-radius: 15px;
+  padding: 40px;
+  width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #e94560;
+  background-color: #0f3460;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #e94560;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #c73652;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #a8dadc;
+  margin: 20px 0;
+}
+
+a {
+  color: #e94560;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
